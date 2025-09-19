@@ -64,6 +64,8 @@ const locations = [
     }
 ];
 
+const year = new Date().getFullYear();
+
 export default function Footer() {
     return (
         <footer className="bg-(--third-green) text-white">
@@ -117,6 +119,11 @@ export default function Footer() {
                         })
                     }
                 </div>
+            </div>
+
+            <div className="w-11/12 mx-auto text-center flex flex-col gap-1 border-t-2 p-3">
+                <p>Copyright © {year} | Tutti i diritti riservati.</p>
+                <p>Codice Fiscale: 98192330177 | Registro Unico Nazionale del Terzo Settore – numero di Repertorio: 85899</p>
             </div>
         </footer>
     )
