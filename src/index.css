@@ -3,9 +3,10 @@
 :root {
     --primary-green: #233d10;
     --secondary-green: #b4d85c;
+    --third-green: #9DA697;
     --white: #E0E5DD;
 }
 
-* {
+/* * {
     border: 1px solid red;
-}
+} */
